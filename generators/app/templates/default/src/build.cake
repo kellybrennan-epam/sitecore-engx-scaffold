@@ -51,7 +51,7 @@ Task("003-Tests")
     ;
 
 Task("004-Packages")
-<% if (majorVersion != '9.1') { -%>
+<% if (majorVersion != '9.1' && majorVersion != '9.3') { -%>
     .IsDependentOn(Sitecore.Tasks.CopyShipFilesTaskName)
     .IsDependentOn(Sitecore.Tasks.CopySpeRemotingFilesTaskName)
 <% } -%>

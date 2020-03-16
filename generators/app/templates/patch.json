@@ -1,14 +1,21 @@
 {
     "9.0.1": [
         "patches/ship",
-        "patches/config"
+        "patches/config",
+		"patches/packages/9.0"
     ],
     "9.0.2": [
         "patches/ship",
-        "patches/config"
+        "patches/config",
+		"patches/packages/9.0"
     ],
     "9.1.0": [
+		"patches/packages/9.0"
     ],
     "9.1.1": [
-    ]
+		"patches/packages/9.0"
+    ],
+	"9.3.0" : [
+		"patches/packages/9.3"
+	]
 }

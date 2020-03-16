@@ -54,5 +54,39 @@
         }
       }
     ]
+  },
+  {
+    "key": "c",
+    "name": "Sitecore 9.2",
+    "value": [
+      {
+        "name": "Sitecore.NET 9.2.0",
+        "value": {
+          "name": "Sitecore.NET 9.2.0 (rev. 002893)",
+          "vagrantBoxName": "w16s-sc920",
+          "majorVersion": "9.2",
+          "exactVersion": "9.2.0",
+          "kernelVersion": "13.0.0",
+          "netFrameworkVersion": "4.7.1"
+        }
+      }
+    ]
+  },
+  {
+    "key": "d",
+    "name": "Sitecore 9.3",
+    "value": [
+      {
+        "name": "Sitecore.NET 9.3.0",
+        "value": {
+          "name": "Sitecore.NET 9.3.0 (rev. 003498)",
+          "vagrantBoxName": "w16s-sc930",
+          "majorVersion": "9.3",
+          "exactVersion": "9.3.0",
+          "kernelVersion": "14.0.0",
+          "netFrameworkVersion": "4.7.2"
+        }
+      }
+    ]
   }
 ]
